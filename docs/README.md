@@ -20,19 +20,22 @@
 [Anaconda Docs](https://docs.conda.io/projects/conda/en/latest/index.html)
 
 #### create environment
-`conda env create -f conda_environment.yml`
+`conda env create -f environment.yml`
 
 #### activate environment
-`conda activate conda_environment`
+`conda activate environment`
 
 #### deactivate environment
-`conda deactivate conda_environment`
+`conda deactivate environment`
 
 #### list environments
 `conda env list`
 
 #### remove environment
-`conda env remove --name conda_environment`
+`conda env remove --name environment`
+
+#### update environment
+`conda env update --file environment.yml --prune`
 
 ## Docker  
 [Docker Docs](https://docs.docker.com/engine/reference/commandline/docker/) 
