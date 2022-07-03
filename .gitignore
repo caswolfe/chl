@@ -1,0 +1,6 @@
+# top level folders
+.idea/
+
+# filetype exceptions
+*.ini
+*.csv
